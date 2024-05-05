@@ -137,7 +137,7 @@ const CartPage = () => {
                       className="product-link"
                     >
                       <img
-                        src={`/api/v1/product/product-photo/${item.product._id}`}
+                        src={`https://ecom-backend-gk0w.onrender.com/api/v1/product/product-photo/${item.product._id}`}
                         className="img-fluid rounded-start"
                         alt={item.product.name}
                         style={{ height: '150px' }}
